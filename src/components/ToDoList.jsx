@@ -41,7 +41,7 @@ const TodoList = ({ isRefresh, setRefresh }) => {
           type="text"
           onChange={(e) => setSearch(e.target.value)}
         />
-        <span className="add-button"  onClick={TodoList}>Cari</span>
+        <span className="add-button" onClick={TodoList}>Cari</span>
       </div>
       <div className="listButton">
         <button className="filter-button" onClick={() => setFilter("all")}>All</button>

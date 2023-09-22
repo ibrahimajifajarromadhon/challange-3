@@ -63,7 +63,6 @@ ul li.checked::before {
   color: white;
   text-align: center;
   color: white;
-  text-align: center;
   border: 1px solid #34495e;
   border-radius: 5px;
 }
@@ -124,6 +123,7 @@ input {
   width: 20px;
   height: 20px;
   margin-right: 10px;
+  color: #d9384c;
 }
 
 .text-warning {
@@ -134,6 +134,7 @@ input {
   width: 20px;
   height: 20px;
   margin-right: 5px;
+  color: #f7bf32;
 }
 
 .filter-button {
@@ -192,4 +193,63 @@ input {
   padding: 5px;
   border: 1px solid black;
   border-radius: 5px;
+}
+
+.add-back {
+  padding: 10px;
+  width: 25%;
+  background: #d9d9d9;
+  color: #555;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+  margin-top: 20px;
+  width: 20%;
+  margin-left: 40%;
+  margin-right: 50%;
+}
+
+.add-back:hover {
+  background-color: #bbb;
+}
+
+.add-new{
+  padding: 10px;
+  width: 25%;
+  background: #d9d9d9;
+  color: #555;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+  margin: auto;
+  margin-left: 38%;
+}
+
+.add-new:hover {
+  background-color: #bbb;
+}
+
+.header-new {
+  background-color: #34495e;
+  padding: 30px 40px;
+  color: white;
+  text-align: center;
+  color: white;
+  border: 1px solid #34495e;
+  border-radius: 5px;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 50%;
+}
+
+.header-new:after {
+  content: "";
+  display: table;
+  clear: both;
 }
