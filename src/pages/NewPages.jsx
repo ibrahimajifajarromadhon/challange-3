@@ -34,6 +34,7 @@ const Header = () => {
               className="add-button"
               onClick={() => {
                 addTodo();
+                alert("Task berhasil ditambahkan");
               }}
             >
               Add
